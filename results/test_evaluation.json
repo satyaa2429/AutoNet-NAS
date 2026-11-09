@@ -1,0 +1,85 @@
+{
+    "test_accuracy_percent": 34.39,
+    "total_test_images": 10000,
+    "best_configuration": {
+        "num_layers": 3,
+        "filters": 32,
+        "kernel_size": 5,
+        "dropout": 0.3
+    },
+    "classification_report": {
+        "airplane": {
+            "precision": 0.36098130841121495,
+            "recall": 0.618,
+            "f1-score": 0.4557522123893805,
+            "support": 1000.0
+        },
+        "automobile": {
+            "precision": 0.6355353075170843,
+            "recall": 0.279,
+            "f1-score": 0.3877692842251564,
+            "support": 1000.0
+        },
+        "bird": {
+            "precision": 0.18248175182481752,
+            "recall": 0.125,
+            "f1-score": 0.14836795252225518,
+            "support": 1000.0
+        },
+        "cat": {
+            "precision": 0.2377142857142857,
+            "recall": 0.208,
+            "f1-score": 0.22186666666666666,
+            "support": 1000.0
+        },
+        "deer": {
+            "precision": 0.3155893536121673,
+            "recall": 0.332,
+            "f1-score": 0.3235867446393762,
+            "support": 1000.0
+        },
+        "dog": {
+            "precision": 0.3805309734513274,
+            "recall": 0.344,
+            "f1-score": 0.36134453781512604,
+            "support": 1000.0
+        },
+        "frog": {
+            "precision": 0.35737704918032787,
+            "recall": 0.327,
+            "f1-score": 0.34151436031331595,
+            "support": 1000.0
+        },
+        "horse": {
+            "precision": 0.276232308443143,
+            "recall": 0.566,
+            "f1-score": 0.3712692686126599,
+            "support": 1000.0
+        },
+        "ship": {
+            "precision": 0.5022288261515602,
+            "recall": 0.338,
+            "f1-score": 0.40406455469216973,
+            "support": 1000.0
+        },
+        "truck": {
+            "precision": 0.4339080459770115,
+            "recall": 0.302,
+            "f1-score": 0.3561320754716981,
+            "support": 1000.0
+        },
+        "accuracy": 0.3439,
+        "macro avg": {
+            "precision": 0.368257921028294,
+            "recall": 0.3439,
+            "f1-score": 0.33716676573478044,
+            "support": 10000.0
+        },
+        "weighted avg": {
+            "precision": 0.36825792102829397,
+            "recall": 0.3439,
+            "f1-score": 0.33716676573478044,
+            "support": 10000.0
+        }
+    }
+}

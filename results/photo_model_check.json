@@ -1,0 +1,29 @@
+{
+  "test": "Official PyTorch Hub dog example",
+  "source": "https://raw.githubusercontent.com/pytorch/hub/master/images/dog.jpg",
+  "actual": "Samoyed dog",
+  "top_predictions": [
+    {
+      "class": "Samoyed",
+      "score_percent": 82.452
+    },
+    {
+      "class": "Pomeranian",
+      "score_percent": 2.1838
+    },
+    {
+      "class": "Arctic fox",
+      "score_percent": 1.4114
+    },
+    {
+      "class": "Eskimo dog",
+      "score_percent": 0.6367
+    },
+    {
+      "class": "collie",
+      "score_percent": 0.5721
+    }
+  ],
+  "checkpoint_sha256": "7f5810bc96def8f7552d5b7e68d53c4786f81167d28291b21c0d90e1fca14934",
+  "note": "One functional example, not an accuracy benchmark."
+}

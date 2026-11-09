@@ -1,0 +1,13 @@
+{
+  "architecture": "AdvancedCNN",
+  "training_images": 16000,
+  "validation_images": 2000,
+  "test_images": 10000,
+  "epochs_completed": 15,
+  "best_epoch": 13,
+  "best_validation_accuracy": 67.05,
+  "test_accuracy": 67.72,
+  "test_loss": 0.8869,
+  "parameters": 296810,
+  "training_time_seconds": 3144.11
+}

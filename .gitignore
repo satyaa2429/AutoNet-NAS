@@ -1,0 +1,23 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Backups
+backups/
+*.zip
+autonet_status_*.txt
+
+# Sensitive configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Temporary files
+*.log
+# Downloaded CIFAR-10 dataset
+data/cifar-10-python.tar.gz
+data/cifar-10-batches-py/

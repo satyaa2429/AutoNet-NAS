@@ -1,0 +1,98 @@
+{
+  "detector": "SSDLite320 MobileNetV3 Large COCO_V1",
+  "threshold": 0.55,
+  "functional_examples": [
+    {
+      "example": "FudanPed00054.png",
+      "people_found": 3,
+      "detections": [
+        {
+          "label": "Person",
+          "score_percent": 99.7809,
+          "box": [
+            93.96,
+            119.78,
+            180.01,
+            418.79
+          ]
+        },
+        {
+          "label": "Person",
+          "score_percent": 97.3194,
+          "box": [
+            287.88,
+            114.97,
+            363.16,
+            333.99
+          ]
+        },
+        {
+          "label": "Person",
+          "score_percent": 84.7311,
+          "box": [
+            362.3,
+            118.22,
+            437.66,
+            325.0
+          ]
+        }
+      ],
+      "ground_truth_people": 3,
+      "ground_truth_best_box_iou": [
+        0.91407,
+        0.87661,
+        0.94704
+      ]
+    },
+    {
+      "example": "person1.jpg",
+      "people_found": 1,
+      "detections": [
+        {
+          "label": "Person",
+          "score_percent": 99.2075,
+          "box": [
+            125.05,
+            156.56,
+            318.76,
+            578.78
+          ]
+        }
+      ]
+    },
+    {
+      "example": "astronaut.jpg",
+      "people_found": 1,
+      "detections": [
+        {
+          "label": "Person",
+          "score_percent": 90.5595,
+          "box": [
+            28.4,
+            11.51,
+            390.19,
+            512
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "Functional examples, not an overall accuracy benchmark.",
+  "checkpoint_sha256": "a79551df90c79834bcd3bb3845ef9d966b5449a3a9b2833ae8404778ca5d65d2",
+  "sources": [
+    "https://raw.githubusercontent.com/pytorch/vision/main/gallery/assets/FudanPed00054.png",
+    "https://raw.githubusercontent.com/pytorch/vision/main/gallery/assets/FudanPed00054_mask.png",
+    "https://raw.githubusercontent.com/pytorch/vision/main/gallery/assets/person1.jpg",
+    "https://raw.githubusercontent.com/pytorch/vision/main/gallery/assets/astronaut.jpg"
+  ],
+  "negative_examples": [
+    {
+      "image": "blank white image",
+      "people_found": 0
+    },
+    {
+      "image": "official PyTorch Hub dog photo",
+      "people_found": 0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "best_configuration": {
+        "num_layers": 3,
+        "filters": 32,
+        "kernel_size": 5,
+        "dropout": 0.3
+    },
+    "best_validation_accuracy": 32.5,
+    "candidate_count_completed": 3,
+    "epochs_per_candidate": 2
+}

@@ -1,0 +1,4 @@
+architecture_id,num_layers,filters,kernel_size,dropout,parameters,validation_accuracy,training_time_seconds
+3,3,32,5,0.3,259914,32.5,33.83
+2,3,16,3,0.3,24234,26.3,18.82
+1,2,16,3,0.2,5418,24.7,9.1

@@ -1,0 +1,5 @@
+{
+  "checkpoint": "continued_cnn.pth",
+  "checkpoint_sha256": "d76b0a7c000e019af9e41259f40824758edf6ac9c9beeb7ed532276ff3c3cb97",
+  "sampling": "24 random test images, seed 42; no filtering by correctness"
+}
